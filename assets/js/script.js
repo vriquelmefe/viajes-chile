@@ -12,4 +12,13 @@ $(function() {
             });
         }
     });
+    /* tooltip redes sociales */
+    $('[data-toggle="tooltip"]').tooltip()
+
+    /* Popover boton mas info */
+    $('[data-toggle="popover"]').popover()
+
+    $("button").on("dblclick", function() {
+        $(this).css("background-color", "black");
+    });
 });

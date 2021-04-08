@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png" />
     <!--Bootstrap 4.6-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +14,7 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Viajes</title>
+    <title>Viajes Chile</title>
 </head>
 
 <body>
@@ -44,21 +45,21 @@
         </div>
     </nav>
     <!--cierre nav-->
-    <header id="home" class="container-fluid bg-image pb-3 mr-2">
-        <div class="container border-white rounded-circle bg-light rounded contentCarousel py-lg-3">
+    <header id="home">
+        <div class="container-fluid p-0">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/glaciar-en-chile.jpg" class="d-block w-100 rounded-circle" alt="glaciares">
+                        <img src="./assets/img/glaciar-en-chile.jpg" class="img-fluid d-block w-100" alt="glaciares" style="height: 600px;">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/Chiloe-en-chile.jpg" class="d-block w-100 rounded-circle" alt="Chiloe">
+                        <img src="./assets/img/Chiloe-en-chile.jpg" class="d-block w-100" alt="Chiloe" style="height:600px;">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/san-juan-de-la-costa.png" class="d-block w-100 rounded-circle" alt="San Juan de la Costa">
+                        <img src="./assets/img/san-juan-de-la-costa.png" class="img-fluid d-block w-100" alt="San Juan de la Costa" style="height: 600px;">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/Cuevas-Mármol-Lago-General-Carrera-Patagonia.jpg" class="d-block w-100 rounded-circle" alt="Ceuva de mármol">
+                        <img src="./assets/img/Cuevas-Mármol-Lago-General-Carrera-Patagonia.jpg" class="d-block w-100" alt="Cueva de mármol" style="height: 600px;">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -73,72 +74,79 @@
         </div>
         <!--cierre div contenedor carousel-->
     </header>
-    <section id="about" class="container d-none d-sm-none d-md-block pb-3">
-        <h2 class="container-fluid bg-secondary rounded-pill text-center mt-3 font-italic font-weight-bold p-3">¿Quiénes somos?</h2>
+    <section id="about" class="container bg-white rounder d-none d-sm-none d-md-block pb-3">
+        <h2 class="container-fluid text-center mt-3 pt-2 font-weight-bold p-3">¿Quiénes somos?</h2>
         <div class="row">
             <article class="col-md-4 text-center">
-                <i class="fas fa-tree fa-2x text-dark"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla harum, suscipit saepe aspernatur corrupti, quae delectus magni reprehenderit expedita architecto. Inventore, ullam consectetur. Voluptatibus dolorum magni illum repudiandae
-                    atque!
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla harum, suscipit saepe aspernatur corrupti, quae delectus magni reprehenderit expedita architecto. Inventore, ullam consectetur. Voluptatibus dolorum magni illum repudiandae
-                    atque!
-                </p>
+                <div class="container pt-3">
+                    <i class="fas fa-tree fa-2x text-dark bg-circle"></i>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla harum, suscipit saepe aspernatur corrupti, quae delectus magni reprehenderit expedita architecto. Inventore, ullam consectetur. Voluptatibus dolorum magni illum
+                        repudiandae atque!
+                    </p>
+                </div>
             </article>
             <article class="col-md-4 text-center">
-                <i class="fas fa-map-marked-alt fa-2x text-dark"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos hic non fuga nobis earum eum quo laboriosam minima! Aut expedita aliquid excepturi laudantium quam laboriosam est! Quis vel fugiat incidunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla harum, suscipit saepe aspernatur corrupti, quae delectus magni reprehenderit expedita architecto. Inventore, ullam consectetur. Voluptatibus dolorum magni illum repudiandae
-                    atque!
-                </p>
+                <i class="fas fa-map-marked-alt fa-2x text-dark bg-circle"></i>
+                <div class="container pt-3">
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos hic non fuga nobis earum eum quo laboriosam minima! Aut expedita aliquid excepturi laudantium quam laboriosam est! Quis vel fugiat incidunt.</p>
+
+                </div>
 
             </article>
             <article class="col-md-4 text-center">
-                <i class="fas fa-utensils fa-2x text-dark"></i>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum illo dolor tempore, nihil rem rerum accusamus quod libero excepturi illum ducimus ut asperiores eligendi voluptates exercitationem natus sunt voluptatem minima!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla harum, suscipit saepe aspernatur corrupti, quae delectus magni reprehenderit expedita architecto. Inventore, ullam consectetur. Voluptatibus dolorum magni illum repudiandae
-                    atque!
-                </p>
+                <i class="fas fa-utensils fa-2x text-dark bg-circle"></i>
+                <div class="container pt-3">
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum illo dolor tempore, nihil rem rerum accusamus quod libero excepturi illum ducimus ut asperiores eligendi voluptates exercitationem natus sunt voluptatem minima!</p>
+
+                </div>
             </article>
         </div>
     </section>
     <!--cierre section article-->
     <!--inicio card-->
 
-    <section id="landscapes" class="container-fluid bg-info">
-        <h2 class="font-weight-bolder text-center text-white font-italic pt-3">Paisajes que puedes conocer</h2>
-        <div class="row text-dark mx-auto justify-content-center pt-3">
-            <div class="card mb-4 col-lg col-md-5  mx-lg-1 mx-md-2 p-0">
-                <img src="./assets/img/isla-de-pascua.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="font-weight-bold">Isla de Pascua</h5>
-                    <p class="card-text"> Sin lugar a dudas un paraíso cultural y arqueológico que conjuga las tradiciones ancestrales de una sociedad que fue desconocida para Occidente durante más de un milenio.</p>
+    <section id="landscapes" class="container-fluid bg-section-landscapes">
+        <div class="container">
+            <h2 class="font-weight-bolder text-center text-dark pt-3">Paisajes que puedes conocer</h2>
+            <div class="row text-dark mx-auto justify-content-center pt-3">
+                <div class="card mb-4 col-lg col-md-5  mx-lg-2 mx-md-2 p-0">
+                    <img src="./assets/img/isla-de-pascua.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Isla de Pascua</h5>
+                        <p class="card-text"> Sin lugar a dudas un paraíso cultural y arqueológico que conjuga las tradiciones ancestrales de una sociedad que fue desconocida para Occidente durante más de un milenio.</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info mx-5 mb-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Conocer más de este lugar">Más información</button>
+                </div>
+                <div class="card mb-4 col-lg  col-md-5 mx-lg-2  mx-md-2 p-0">
+                    <img src="./assets/img/Saltos-del-Petrohue.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Saltos del Petrohue <em class="text-muted">(Puerto Varas)</em></h5>
+                        <p class="card-text">Se caracteriza por sus cascadas de agua rodeado de bosque valdiviano en su variedad andina.</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info mx-5 mb-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Conocer más de este lugar">Más información</button>
+                </div>
+                <div class="card mb-4 col-lg col-md-5 mx-lg-2  mx-md-2 p-0">
+                    <img src="./assets/img/geysers-del-tatio-chile.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Géiseres del Tatio <em class="text-muted">(San Pedro de Atacama)</em></h5>
+                        <p class="card-text">El Tatio ​​ es un campo de géiseres ubicado en los montes andinos del norte de Chile, en la Región de Antofagasta. Están a solo 89 kilómetros de San Pedro de Atacama. Es uno de los campos geotérmicos más importantes del mundo.</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info mx-5 mb-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Conocer más de este lugar">Más información</button>
+                </div>
+                <div class="card mb-4 col-lg col-md-5 mx-lg-2 mx-md-2 p-0">
+                    <img src="./assets/img/desierto1.jpg" class="card-img-top" alt="desierto florido">
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Desierto Florido <em class="text-muted"> (Región de Atacama)</em></h5>
+                        <p class="card-text">Contemplar el desierto más árido del planeta pintado de exuberantes colores es una experiencia extraordinaria.</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info mx-5 mb-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Conocer más de este lugar">Más información</button>
                 </div>
             </div>
-            <div class="card mb-4 col-lg  col-md-5 mx-lg-1  mx-md-2 p-0">
-                <img src="./assets/img/Saltos-del-Petrohue.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="font-weight-bold">Saltos del Petrohue <em class="text-muted">(Puerto Varas)</em></h5>
-                    <p class="card-text">Se caracteriza por sus cascadas de agua rodeado de bosque valdiviano en su variedad andina.</p>
-                </div>
-            </div>
-            <div class="card mb-4 col-lg col-md-5 mx-lg-1  mx-md-2 p-0">
-                <img src="./assets/img/geysers-del-tatio-chile.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="font-weight-bold">Géiseres del Tatio <em class="text-muted">(San Pedro de Atacama)</em></h5>
-                    <p class="card-text">El Tatio ​​ es un campo de géiseres ubicado en los montes andinos del norte de Chile, en la Región de Antofagasta. Están a solo 89 kilómetros de San Pedro de Atacama. Es uno de los campos geotérmicos más importantes del mundo.</p>
-                </div>
-            </div>
-            <div class="card mb-4 col-lg col-md-5 mx-lg-1  mx-md-2 p-0">
-                <img src="./assets/img/desierto1.jpg" class="card-img-top" alt="desierto florido">
-                <div class="card-body">
-                    <h5 class="font-weight-bold">Desierto Florido <em class="text-muted"> (Región de Atacama)</em></h5>
-                    <p class="card-text">Contemplar el desierto más árido del planeta pintado de exuberantes colores es una experiencia extraordinaria.</p>
-                </div>
-            </div>
+            <!--cierre div row-->
         </div>
+        <!--cierre div contenedor-->
     </section>
-    <!--cierre tarejetas-->
+    <!--cierre tarjetas-->
     <section id="subscribe">
         <div class="typeform-widget" data-url="https://form.typeform.com/to/MP5D6UqG?typeform-medium=embed-snippet" data-transparency="26" style="width: 100%; height: 400px;"></div>
         <script>
@@ -159,26 +167,25 @@
             })()
         </script>
     </section>
-    <footer id="contact" class="container-fluid bg-dark text-center p-3">
-        <div>
-            <div class="row"></div>
-            <div class="col-5">
-                <img src="./assets/img/logo.png" alt="Logo Viajes Chile" height="50" class="pb-2">
-            </div>
+    <footer id="contact" class="container-fluid bg-dark text-center px-4 py-3">
+        <div class="container">
             <div class="row">
-                <div class="col-2">
-                    <a href="https://twitter.com" target="_blank" class="text-white"><i class="fab fa-twitter-square fa-2x m-2"></i></a>
+                <!--logo-->
+                <div class="col-5 text-left">
+                    <img src="./assets/img/logo.png" alt="Logo Viajes Chile" height="50" class="pb-2">
                 </div>
-                <div class="col-2">
-                    <a href="" class="text-white"><i class="fab fa-facebook-square fa-2x m-2"></i></a>
-                </div>
-                <div class="col-2">
-                    <a href="" class="text-white"><i class="fab fa-whatsapp-square fa-2x m-2"></i></a>
+                <!--iconos redes sociales-->
+                <div class="col text-right p-0">
+                    <a href="https://twitter.com" target="_blank" class="text-white"><i class="fab fa-twitter-square fa-2x m-2" data-toggle="tooltip" data-placement="left" title="Twitter"></i></a>
+
+                    <a href="https://facebook.com" target="_blank" class="text-white"><i class="fab fa-facebook-square fa-2x m-2"  data-toggle="tooltip" data-placement="left" title="Facebook"></i></a>
+
+                    <a href="https://cl.linkedin.com/" target="_blank" class="text-white"><i class="fab fa-linkedin fa-2x m-2"  data-toggle="tooltip" data-placement="left" title="Linkedin"></i></a>
                 </div>
             </div>
+            <!--cierre div row-->
         </div>
-        <!--div container-->
-
+        <!--cierre div container-->
     </footer>
     <!--cierre footer-->
 
