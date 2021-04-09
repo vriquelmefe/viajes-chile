@@ -5,10 +5,23 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+p {
+    font-weight: 700;
+}
+
+.carousel-indicators ol {
+    padding: 0%;
+}
+
 #about {
-    margin-top: -100px;
+    margin-top: -90px;
     position: relative;
-    border-radius: 460%;
+    border-radius: 30%;
+    margin-bottom: 30px;
+}
+
+#about h2 {
+    margin-top: 20px;
 }
 
 .bg-circle {
@@ -22,93 +35,3 @@ body {
 .bg-section-landscapes {
     background-color: rgba(123, 146, 146, 0.659);
 }
-
-
-/*
-.bg-image {
-    background-image: url(../img/salar-de-maricunga.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    ba
-}*/
-
-
-/*
-@media screen and (max-width: 1200px) {
-    .contentCarousel {
-        height: auto;
-        width: 920px;
-        padding: 15px;
-        margin-left: 70px;
-    }
-}*/
-
-
-/* bg-circle   rgba(36, 158, 158, 0.474); */
-
-
-/*
-@media screen and (max-width: 992px) {
-    .contentCarousel {
-        height: auto;
-        width: 700px;
-        padding: 15px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .contentCarousel {
-        height: 278px;
-        width: 460px;
-        padding: 10px;
-        margin: auto;
-    }
-    header {
-        padding-top: 12rem;
-    }
-}
-
-@media screen and (min-width: 573px) and (max-width: 719px) {
-    .contentCarousel {
-        height: auto;
-        width: auto;
-        padding: 10px;
-        margin: auto;
-    }
-    header {
-        padding-top: 8rem;
-    }
-}
-
-@media screen and (max-width: 572px) {
-    .contentCarousel {
-        height: auto;
-        width: auto;
-        padding: 10px;
-        margin: 0 50px;
-        align-content: center;
-    }
-    header {
-        padding-top: 7rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .contentCarousel {
-        height: 155px;
-        width: 250px;
-        margin: auto;
-    }
-    header {
-        padding-top: 5.2rem;
-    }
-}
-
-footer ul {
-    display: inline;
-}
-
-footer ul li {
-    list-style: none;
-}*/
