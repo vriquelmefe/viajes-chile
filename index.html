@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vanessa Riquelme">
+    <meta name="description" content="Descrubre nuevos lugares recorriendo chile">
+    <meta name="keywords" content="viajes, chile, tour">
     <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png" />
     <!--Bootstrap 4.6-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -19,7 +22,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top font-weight-bold">
-        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Logo Viajes por Chile" height="50px"></a>
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Logo Viajes por Chile" height="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -120,11 +123,11 @@
                     </div>
                     <button type="button" class="btn btn-outline-info mx-5 mb-2" data-toggle="modal" data-target="#rapanui">Más información</button>
                     <!-- Modal -->
-                    <div class="modal fade" id="rapanui" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="rapanui" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="rapanuiLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Isla de Pascua</h5>
+                                    <h5 class="modal-title" id="rapanuiLabel">Isla de Pascua</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -157,11 +160,11 @@
                     </div>
                     <button type="button" class="btn btn-outline-info mx-5 mb-2" data-toggle="modal" data-target="#saltoPetrohue">Más información</button>
                     <!-- Modal -->
-                    <div class="modal fade" id="saltoPetrohue" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="saltoPetrohue" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="saltoPetrohueLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Saltos del Petrohue</h5>
+                                    <h5 class="modal-title" id="saltoPetrohueLabel">Saltos del Petrohue</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -191,11 +194,11 @@
                     </div>
                     <button type="button" class="btn btn-outline-info mx-5 mb-2" data-toggle="modal" data-target="#geysers">Más información</button>
                     <!-- Modal -->
-                    <div class="modal fade" id="geysers" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="geysers" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="geysersLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Geysers del Tatio</h5>
+                                    <h5 class="modal-title" id="geysersLabel">Geysers del Tatio</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -254,6 +257,29 @@
         <!--cierre div contenedor-->
     </section>
     <!--cierre tarjetas-->
+    <section class="container py-4">
+        <div class="card text-center bg-dark text-white-50">
+            <div class="card-header bg-secondary text-white">
+                Testimonios
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>>Sin duda el mejor descubrimiento, me han entregado desde el primer momento toda la información necesaria. Los recomiendo al 100%.</p>
+                    <footer class="blockquote-footer">Vanessa Riquelme <cite class="text-white" title="Source Title">Saltos del Petrohue</cite></footer>
+                </blockquote>
+            </div>
+
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>>Muy grata experiencia la visita a Atacama e igualmente fantástica la estancia en la Patagonia y a Rapa Nui. paisajes maravillosos y excelente comida.</p>
+                    <footer class="blockquote-footer">Carlo Magno <cite class="text-white" title="Source Title">Rapanui</cite></footer>
+                </blockquote>
+            </div>
+
+        </div>
+    </section>
+
+    <!--suscripción-->
     <section id="subscribe">
         <div class="typeform-widget" data-url="https://form.typeform.com/to/MP5D6UqG?typeform-medium=embed-snippet" data-transparency="26" style="width: 100%; height: 400px;"></div>
         <script>
