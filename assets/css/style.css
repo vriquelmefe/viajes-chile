@@ -5,12 +5,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-p {
-    font-weight: 700;
+h2 {
+    font-size: 50px;
 }
 
-.carousel-indicators ol {
-    padding: 0%;
+p {
+    font-weight: 700;
 }
 
 #about {
@@ -24,6 +24,9 @@ p {
     margin-top: 20px;
 }
 
+
+/*fondo iconos font awensome*/
+
 .bg-circle {
     background-color: rgba(36, 158, 158, 0.474);
     border-radius: 100px;
@@ -31,6 +34,9 @@ p {
     width: 70px;
     padding-top: 18px;
 }
+
+
+/*background  section card*/
 
 .bg-section-landscapes {
     background-color: rgba(123, 146, 146, 0.659);
