@@ -12,6 +12,14 @@ $(function() {
             });
         }
     });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('#navHome').addClass("bg-dark");
+        } else {
+            $('#navHome').removeClass("bg-dark");
+        }
+    });
     /* tooltip redes sociales */
     $('[data-toggle="tooltip"]').tooltip()
 
